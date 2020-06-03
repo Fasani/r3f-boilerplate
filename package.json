@@ -1,0 +1,47 @@
+{
+    "name": "r3f-boilerplate",
+    "description": "A lightweight starting point for r3f projects",
+    "author": "Michael Fasani",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/fasani/r3f-boilerplate.git"
+    },
+    "keywords": [
+        "r3f",
+        "react-three-fiber",
+        "threejs",
+        "webpack4",
+        "react",
+        "javascript",
+        "3d"
+    ],
+    "main": "index.js",
+    "version": "1.0.0",
+    "dependencies": {
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.3.3",
+        "drei": "0.0.54",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-three-fiber": "^4.2.8",
+        "three": "^0.117.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "html-webpack-plugin": "^4.3.0",
+        "react-refresh": "^0.8.3",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
