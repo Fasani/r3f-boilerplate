@@ -20,7 +20,7 @@
     "version": "1.0.0",
     "dependencies": {
         "@pmmmwh/react-refresh-webpack-plugin": "^0.3.3",
-        "drei": "0.0.54",
+        "drei": "0.0.55",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-three-fiber": "^4.2.8",
