@@ -27,6 +27,13 @@ After cloning to start this repository from your own 'Initial commit' you can co
 
 To build your project you can run `npm run build` any modifications made to the `index.html` will be copied over as the base file in the newly created `dist` folder.
 
+# Introduction resources
+
+- [Bringing WebGL to React - Paul Henschel aka @0xca0a at @ReactEurope 2020](https://www.youtube.com/watch?v=YyqBdN71nFs)
+- [Animation and 3D in react-three-fiber (with Paul Henschel) — Learn With Jason](https://www.youtube.com/watch?v=1rP3nNY2hTo)
+- [Scroll, Refraction and Shader Effects in Three.js and React](https://tympanus.net/codrops/2019/12/16/scroll-refraction-and-shader-effects-in-three-js-and-react/)
+- [Write three.js in React Using react-three-fiber](https://www.digitalocean.com/community/tutorials/react-react-with-threejs)
+
 ## Upgrade options
 
 I have kept this repository as lightweight as possible. You could also remove the `drei` dependency if you wish. Drei has many useful helpers for `react-three-fiber` so you should check it out first.
