@@ -8,10 +8,10 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
     devServer: {
-        port: 3000
+        port: 3000,
     },
     mode: isDevelopment ? 'development' : 'production',
     module: {
@@ -22,23 +22,23 @@ module.exports = {
                 use: {
                     loader: require.resolve('babel-loader'),
                     options: {
-                        plugins: [isDevelopment && require.resolve('react-refresh/babel')].filter(Boolean)
-                    }
-                }
+                        plugins: [
+                            isDevelopment &&
+                                require.resolve('react-refresh/babel'),
+                        ].filter(Boolean),
+                    },
+                },
             },
             {
                 test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            }
-        ]
+                use: ['style-loader', 'css-loader'],
+            },
+        ],
     },
     plugins: [
         new htmlWebpack({
-            template: './src/index.html'
+            template: './src/index.html',
         }),
         isDevelopment && new ReactRefreshWebpackPlugin(),
-    ].filter(Boolean)
+    ].filter(Boolean),
 };
