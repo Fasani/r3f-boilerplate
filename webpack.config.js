@@ -21,7 +21,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: require.resolve('babel-loader'),
@@ -38,6 +38,9 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
         ],
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     },
     plugins: [
         new htmlWebpack({
