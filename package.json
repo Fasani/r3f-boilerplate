@@ -22,7 +22,7 @@
         "drei": "0.0.58",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-three-fiber": "^4.2.8",
+        "react-three-fiber": "^4.2.10",
         "three": "^0.117.1"
     },
     "devDependencies": {
