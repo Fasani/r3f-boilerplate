@@ -9,6 +9,10 @@ A lightweight boilerplate for r3f ([react-three-fiber](https://github.com/react-
 - [react-refresh](https://github.com/facebook/react/tree/master/packages/react-refresh) - Edit components without losing their state
 - [drei](https://github.com/react-spring/drei) - Helpers for react-three-fiber
 
+## Ultra Quickstart
+
+Preview and play with this project on [codesandbox.io](https://codesandbox.io/s/github/Fasani/r3f-boilerplate).
+
 ## Quickstart
 
 1. Clone this repository using `git clone --depth=1 https://github.com/fasani/r3f-boilerplate.git <YOUR_PROJECT_NAME>`
