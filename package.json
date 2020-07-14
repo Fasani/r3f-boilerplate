@@ -19,7 +19,7 @@
     "main": "index.js",
     "version": "1.0.0",
     "dependencies": {
-        "drei": "0.0.60",
+        "drei": "0.0.62",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-three-fiber": "^4.2.14",
