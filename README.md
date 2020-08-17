@@ -1,6 +1,7 @@
 # r3f boilerplate
 
 <img src="https://img.shields.io/david/fasani/r3f-boilerplate?color=green"> <img src="https://img.shields.io/david/dev/fasani/r3f-boilerplate?color=green"> <img src="https://img.shields.io/github/license/fasani/r3f-boilerplate?color=black">
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Fasani/r3f-boilerplate)
 
 A lightweight boilerplate for r3f ([react-three-fiber](https://github.com/react-spring/react-three-fiber))
 
@@ -11,7 +12,9 @@ A lightweight boilerplate for r3f ([react-three-fiber](https://github.com/react-
 
 ## Ultra Quickstart
 
-Preview and play with this project on [codesandbox.io](https://codesandbox.io/s/github/Fasani/r3f-boilerplate).
+Preview and play with this project on Gitpod.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Fasani/r3f-boilerplate)
 
 ## Quickstart
 
