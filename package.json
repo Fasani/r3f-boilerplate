@@ -20,7 +20,7 @@
     "version": "1.0.0",
     "dependencies": {
         "drei": "1.5.6",
-        "react": "^16.13.1",
+        "react": "^16.14.0",
         "react-dom": "^16.13.1",
         "react-three-fiber": "^4.2.21",
         "three": "^0.118.3"
