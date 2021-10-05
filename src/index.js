@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import { Canvas } from 'react-three-fiber';
+import { Canvas } from '@react-three/fiber';
 import './styles.css';
-import { Stats } from 'drei';
+import { Stats } from '@react-three/drei';
 import Box from './components/Box';
 
 ReactDOM.render(

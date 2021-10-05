@@ -3,12 +3,12 @@
 <img src="https://img.shields.io/david/fasani/r3f-boilerplate?color=green"> <img src="https://img.shields.io/david/dev/fasani/r3f-boilerplate?color=green"> <img src="https://img.shields.io/github/license/fasani/r3f-boilerplate?color=black">
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Fasani/r3f-boilerplate)
 
-A lightweight boilerplate for r3f ([react-three-fiber](https://github.com/react-spring/react-three-fiber))
+A lightweight boilerplate for r3f ([react-three-fiber](https://github.com/pmndrs/react-three-fiber))
 
 ## Features
 
 - [react-refresh](https://github.com/facebook/react/tree/master/packages/react-refresh) - Edit components without losing their state
-- [drei](https://github.com/react-spring/drei) - Helpers for react-three-fiber
+- [drei](https://github.com/pmndrs/drei) - Helpers for react-three-fiber
 
 ## Ultra Quickstart
 
@@ -71,7 +71,7 @@ module: {
 
 ```
 import React, { Suspense } from 'react';
-import { useLoader } from 'react-three-fiber';
+import { useLoader } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import logo from '../assets/models/logo.gltf';
 
@@ -124,7 +124,7 @@ module: {
 ```
 import * as THREE from 'three'
 import React, { Suspense } from 'react'
-import { useLoader } from 'react-three-fiber'
+import { useLoader } from '@react-three/fiber'
 import Font from '../assets/font.blob'
 
 function Text(props) {
